@@ -86,13 +86,39 @@
             </div>
           </div>
         </div>
+
+        <div class="content-info">
+          <div class="table">
+            <h5>Últimos filmes</h5>
+            <p>Saiba os últimos lançamentos da marca</p>
+            <table id="films-table">
+              <thead>
+                <tr>
+                  <th>Títulos</th>
+                  <th>Estréia</th>
+                  <th>Diretor</th>
+                  <th>Episódio</th>
+                </tr>
+              </thead>
+              <tbody id="table-body"></tbody>
+            </table>
+          </div>
+
+          <div class="chart">
+            <div id="piechart" style="width: 400px; height: 400px"></div>
+          </div>
+        </div>
       </div>
     </div>
 
     <script>
       feather.replace();
     </script>
-
+    <script
+      type="text/javascript"
+      src="https://www.gstatic.com/charts/loader.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.2/moment.min.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="./index.js"></script>
   </body>
